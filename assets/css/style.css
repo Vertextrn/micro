@@ -339,91 +339,49 @@ header .container {
   #PODCAST
 \*-----------------------------------*/
 
-.podcast { padding: var(--section-padding) 0; }
 
-.podcast-list {
-  display: grid;
-  gap: 30px;
+/*-----------------------------------*\
+  #EXPLOER
+\*-----------------------------------*/
+
+.explore-card:hover { transform: translateY(-5px); }
+
+.explore-card .card-banner {
+  aspect-ratio: 1 / 1;
+  margin-block-end: 35px;
 }
 
-.podcast-card { border-radius: 4px; }
+.explore-card .card-title > a:is(:hover, :focus) { color: var(--han-purple); }
 
-.card-banner {
-  position: relative;
-  border-radius: 8px;
-  overflow: hidden;
-  margin-bottom: 20px;
-  z-index: 1;
+.explore-card .card-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 10px;
 }
 
-.card-banner::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-
-.podcast-card:is(:hover, :focus) .card-banner::before {
-  background: hsla(0, 0%, 100%, 0.1);
-}
-
-.card-banner img { width: 100%; }
-
-.card-banner-icon {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  display: grid;
-  place-items: center;
+.explore-card .author-link {
   color: var(--white);
-  border: 2px solid var(--white);
-  border-radius: 50%;
-  font-size: 20px;
-  transition: var(--transition);
+  font-family: var(--ff-jost);
+  font-weight: var(--fw-500);
+  transition: var(--transition-2);
 }
 
-.podcast-card:is(:hover, :focus) .card-banner-icon {
-  background: var(--white);
-  color: var(--blue-ryb);
-}
+.explore-card .author-link:is(:hover, :focus) { color: var(--han-purple); }
 
-.card-meta {
-  position: relative;
+.explore-card .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
-  color: var(--heliotrope-gray);
-  font-size: var(--fs-4);
-  margin-left: 35px;
-  margin-bottom: 15px;
+  margin-block-end: 15px;
 }
 
-.card-meta::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -35px;
-  transform: translateY(-2px);
-  width: 25px;
-  height: 2px;
-  background: var(--heliotrope-gray);
+.explore-card .wrapper-item { color: var(--white); }
+
+.explore-card .btn {
+  font-size: var(--fs-5);
+  --padding: 8px 15px;
 }
-
-.podcast-card .card-title {
-  display: inline;
-  padding: 3px 0;
-  background: var(--gradient);
-  background-position: 0 95%;
-  background-repeat: no-repeat;
-  background-size: 0 2px;
-  transition: var(--transition);
-}
-
-.podcast-card:is(:hover, :focus) .card-title { background-size: 100% 2px; }
-
-
 
 
 
