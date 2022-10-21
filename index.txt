@@ -40,7 +40,7 @@ SoundCloud
 
 
 
-# PODCAST
+# EXPLOER
 
 alt = Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies
 <ion-icon name="play"></ion-icon>
