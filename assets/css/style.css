@@ -337,43 +337,27 @@ header .container {
 \*-----------------------------------*/
 
 .explore-card:hover { transform: translateY(-5px); }
+.collection-card { text-align: center; }
 
-.explore-card .card-banner {
-  aspect-ratio: 1 / 1;
-  margin-block-end: 35px;
-}
+.collection-card .card-banner { aspect-ratio: 1 / 0.75; }
 
-.explore-card .card-title > a:is(:hover, :focus) { color: var(--han-purple); }
-
-.explore-card .card-author {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-block: 10px;
-}
-
-.explore-card .author-link {
-  color: var(--white);
-  font-family: var(--ff-jost);
-  font-weight: var(--fw-500);
+.collection-card .card-avatar {
+  position: relative;
+  width: max-content;
+  margin-inline: auto;
+  margin-block: -40px 15px;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 3px solid var(--white_20);
+  padding: 5px;
   transition: var(--transition-2);
 }
 
-.explore-card .author-link:is(:hover, :focus) { color: var(--han-purple); }
+.collection-card .card-avatar img { border-radius: inherit; }
 
-.explore-card .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-block-end: 15px;
-}
+.collection-card:is(:hover, :focus) .card-avatar { box-shadow: 0 5px 10px hsla(223, 82%, 30%, 0.5); }
 
-.explore-card .wrapper-item { color: var(--white); }
-
-.explore-card .btn {
-  font-size: var(--fs-5);
-  --padding: 8px 15px;
-}
+.collection-card:is(:hover, :focus) .card-title { color: var(--han-purple); }
 
 
 
