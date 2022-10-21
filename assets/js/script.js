@@ -63,9 +63,9 @@ const submitBtn = document.querySelector("[data-submit]");
 input.addEventListener("input", function () {
 
   if (input.checkValidity()) {
-    submitBtn.removeAttribute("disabled");
+    submitBtn.removeAttribute("active");
   } else {
-    submitBtn.setAttribute("disabled", "");
+    submitBtn.setAttribute("active", "");
   }
 
 });
