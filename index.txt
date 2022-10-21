@@ -39,58 +39,81 @@ Apple Music
 SoundCloud
 
 
+#---------- EXPLORE ----------#
 
-# EXPLOER
+Exclusive Assets
 
-alt = Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies
-<ion-icon name="play"></ion-icon>
+Explore
 
-Feb 15, 2022
-Episodes: 01
+Explore All
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies
+alt = Walking On Air
+Walking On Air
 
-alt = Ask Unladylike: Late Bloomer with Forever 35
+Owned By
+Richard
 
-Episodes: 02
+1.5 ETH
+1 of 1
 
-Ask Unladylike: Late Bloomer with Forever 35
+<ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+Place a Bid
 
-alt = How to Effectively Incentivize Team Members
+Domain Names
 
-Episodes: 03
+John Deo
+2.7
 
-How to Effectively Incentivize Team Members
+Trading Cards
 
-alt = How to go from Start-Up to Scale-Up
+Arham
+2.3
 
-Episodes: 04
+Industrial Revolution
 
-How to go from Start-Up to Scale-Up
+Yasmin
+1.8
 
-alt = Deadbuttons – Tired of You | Live at Club Heavy
+Utility
 
-Episodes: 05
+Junaid
+1.7
 
-Deadbuttons – Tired of You | Live at Club Heavy
+Sports
 
-alt = Boogie Through the Universe with SOWO
+ArtNox
+1.7
 
-Episodes: 06
+Cartoon Heroes
 
-Boogie Through the Universe with SOWO
+Junaid
+3.2
 
-alt = Glittering Blackness, Fall – 4 | Live at Club Heavy
+Gaming Chair
 
-Episodes: 07
+Johnson
+0.69
 
-Glittering Blackness, Fall – 4 | Live at Club Heavy
+Utility
 
-alt = The Meditative Photos of Chaelinjane
+Junaid
+1.7
 
-Episodes: 08
+Sports
 
-The Meditative Photos of Chaelinjane
+ArtNox
+1.7
+
+Cartoon Heroes
+
+Junaid
+3.2
+
+Gaming Chair
+
+Johnson
+0.69
 
 
 
